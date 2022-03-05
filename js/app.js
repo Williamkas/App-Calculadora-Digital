@@ -9,7 +9,7 @@ console.log('Apliación Calculadora');
                 resultado = 'Por favor ingrese valores numéricos para realizar la operación';
                 alert('ERROR: No se puede realizar la operación con elementos vacíos.')
             }
-            document.getElementById('resultado').innerHTML = `${resultado}.`;
+            document.getElementById('resultado').innerHTML = `${resultado}`;
             console.log(`El resultado es: ${resultado}`);    
     }
 
@@ -22,7 +22,7 @@ console.log('Apliación Calculadora');
             resultado = 'Por favor ingrese valores numéricos para realizar la operación';
             alert('ERROR: No se puede realizar la operación con elementos vacíos.')
         }
-        document.getElementById('resultado').innerHTML = `${resultado}.`;
+        document.getElementById('resultado').innerHTML = `${resultado}`;
         console.log(`El resultado es: ${resultado}`);    
     }
 
@@ -35,7 +35,7 @@ console.log('Apliación Calculadora');
             resultado = 'Por favor ingrese valores numéricos para realizar la operación';
             alert('ERROR: No se puede realizar la operación con elementos vacíos.')
         }
-        document.getElementById('resultado').innerHTML = `${resultado}.`;
+        document.getElementById('resultado').innerHTML = `${resultado}`;
         console.log(`El resultado es: ${resultado}`);    
     }
 
